@@ -19,6 +19,14 @@ Developing software with minimum code writing.
 - Include the issue number that triggered the action in the body of the pull request.
 
 
+## Ssetup
+
+Add following value into the Secrets.
+
+- `CHATGPT_API_KEY`
+  - API key to access ChatGPT.
+
+
 ## Development status
 
 - In Development.
