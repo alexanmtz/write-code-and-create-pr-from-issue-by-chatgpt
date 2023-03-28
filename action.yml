@@ -1,8 +1,8 @@
 name: ChatGPT Code Generation
 description: Create code and pull request by ChatGPT as written in Github issues.
 branding:
-  icon: 'award'
-  color: 'green'
+  icon: 'code'
+  color: 'blue'
 
 on:
   issues:
