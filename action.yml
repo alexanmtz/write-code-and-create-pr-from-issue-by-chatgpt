@@ -4,11 +4,6 @@ branding:
   icon: 'code'
   color: 'blue'
 
-on:
-  issues:
-    types:
-      - labeled
-
 jobs:
   chatgpt_code_generation:
     runs-on: ubuntu-latest
