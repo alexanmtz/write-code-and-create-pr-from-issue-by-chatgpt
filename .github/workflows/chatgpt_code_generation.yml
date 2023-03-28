@@ -9,4 +9,4 @@ jobs:
     name: Code generation by ChatGPT
     steps:
       - uses: actions/checkout@v3
-      - uses: matsubo/write-code-and-create-pr-from-issue-by-chatgpt@main
+      - uses: matsubo/write-code-and-create-pr-from-issue-by-chatgpt@v0.0.1
