@@ -1,0 +1,12 @@
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Code generation by ChatGPT
+    steps:
+      - uses: actions/checkout@v3
+      - uses: matsubo/write-code-and-create-pr-from-issue-by-chatgpt@latest

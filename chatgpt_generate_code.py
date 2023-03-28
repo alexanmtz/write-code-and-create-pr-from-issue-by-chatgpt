@@ -8,7 +8,7 @@ def generate_code_with_chatgpt(issue_title, issue_body, api_key):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "input_text": f"Title: {issue_title}\n\n{issue_body}",
+        "input_text": f"Title: {issue_title}\n\n{issue_body}\n\nOutput only patch format result in the next response.",
         "options": {
             # Add any options for the ChatGPT API here
         }

@@ -1,13 +1,8 @@
 name: ChatGPT Code Generation
 description: Create code and pull request by ChatGPT as written in Github issues.
 branding:
-  icon: 'award'
-  color: 'green'
-
-on:
-  issues:
-    types:
-      - labeled
+  icon: 'code'
+  color: 'blue'
 
 jobs:
   chatgpt_code_generation:
@@ -15,12 +10,12 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'ChatGPT')
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
