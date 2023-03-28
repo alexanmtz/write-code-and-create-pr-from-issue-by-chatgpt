@@ -1,4 +1,5 @@
 name: ChatGPT Code Generation
+description: Create code and pull request by ChatGPT as written in Github issues.
 
 on:
   issues:
