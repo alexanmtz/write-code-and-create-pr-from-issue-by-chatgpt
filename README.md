@@ -1,7 +1,10 @@
-# write-code-and-create-pr-from-issue-by-chatgpt
-
+# Write code and create pull request from the issue by chatgpt
 
 ## Objectives
+
+Developing software with minimum code writing.
+
+## Aim
 
 - Once a requester create an issue on github, ChatGPT write code, create pull request and review the pull request.
 - All a human need to do is review and merge it.
